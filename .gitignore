@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+preds.csv
+training_outputs/
+evaluation_reproduced/
+*.log
+.venv/
+test_imagesByEldiyar/

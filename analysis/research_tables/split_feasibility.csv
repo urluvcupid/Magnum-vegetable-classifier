@@ -1,0 +1,7 @@
+class,groups,total,three_way_possible
+Capsicum,3,615,True
+Carrot,2,905,False
+Cucumber,3,308,True
+Potato,2,422,False
+Raddish,1,286,False
+Squash,3,1343,True

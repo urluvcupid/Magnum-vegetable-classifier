@@ -1,0 +1,117 @@
+{
+  "source_archive": "Magnum_FULL_BACKUP.zip",
+  "extracted": [
+    {
+      "file": "neighbor_ssim.csv",
+      "sha256": "2a58bd5595f70b46839aa5f2e657953aa3071984d30c98ecb7bbf116f96f7884",
+      "bytes": 497264
+    },
+    {
+      "file": "audit_pairs.csv",
+      "sha256": "c5ac1312472cb7eb2e6819ce04597a4bc601846dc3a978fe104d946c5e6a359b",
+      "bytes": 4534
+    },
+    {
+      "file": "date_group_report.csv",
+      "sha256": "958ada98186701cc6bf73337fd2560bf62c3f337ae7dca5749c212db627b1319",
+      "bytes": 794
+    },
+    {
+      "file": "strict_proposal.csv",
+      "sha256": "37670b9c18a8f28f90bf7305e7d53c87fe8aae47346c2ea033f715c0bb4147db",
+      "bytes": 244209
+    },
+    {
+      "file": "final_class_summary.csv",
+      "sha256": "8dfeabe881102caa81e5e50ffdd6fe658c8c525326212c9e44da3f8ea61630ce",
+      "bytes": 287
+    },
+    {
+      "file": "redundancy_df.csv",
+      "sha256": "99342c56c04dee8f626c1fb4a9759cb537128428a97a2faff1e7565b1ececfae",
+      "bytes": 482517
+    },
+    {
+      "file": "quality_flags_df.csv",
+      "sha256": "174a4cb99d0cd85d3a2478f90228a27959cc92599cbac9410ac7b2515d0b7529",
+      "bytes": 17284
+    },
+    {
+      "file": "phash_df.csv",
+      "sha256": "2a4218a97008479b9d3257dc18a600890e66b3684a449f4dd57e5847b298267b",
+      "bytes": 312629
+    },
+    {
+      "file": "cnn_strict.csv",
+      "sha256": "0cbdccb084b5507ab9bae60c9bad0cc4411ad08d3f00d05fad52784d2977219e",
+      "bytes": 405761
+    },
+    {
+      "file": "series_summary.csv",
+      "sha256": "3474cfed71473920d5d0c431b1740d6cb6104b7b3ca276767f0012821b6edc02",
+      "bytes": 1805
+    },
+    {
+      "file": "cnn_comparison.csv",
+      "sha256": "1d64e5f3dec5605e48c98b7dddbd37f23eb3ed6a8dd15b9c2de4342d258675d5",
+      "bytes": 781
+    },
+    {
+      "file": "cnn_audit.csv",
+      "sha256": "2921beb98d8c1dc48b5c1a8081d4373ff077792f88ffdb42d424177b7e1a7f5b",
+      "bytes": 5129
+    },
+    {
+      "file": "split_feasibility.csv",
+      "sha256": "90911d61ae4b3ede2037b90668bdb0424e5d46868d7044f3fe5dfa0fe11e56bb",
+      "bytes": 155
+    },
+    {
+      "file": "data_integrity_checks.csv",
+      "sha256": "9b58db3811f3f404cdbe354ccdc18cfc35679adec75968df411f79af1d81df3d",
+      "bytes": 345
+    },
+    {
+      "file": "cnn_balanced.csv",
+      "sha256": "660f36a3ace52f4e9a8466235dea5dd39619cb43a4da1d7170ed818b689baa81",
+      "bytes": 469459
+    },
+    {
+      "file": "resnet18_embeddings.npy",
+      "sha256": "c7d296a9b1fb03ab0f04d64088a44ab479ae0848ed88f8f527775f3619c10ad9",
+      "bytes": 7250048
+    },
+    {
+      "file": "master_manifest.csv",
+      "sha256": "e4f405024e4520358757631f322d1d8ef763697c932c0cfe430f77f4bee9b8ce",
+      "bytes": 551866
+    },
+    {
+      "file": "balanced_proposal.csv",
+      "sha256": "ad9b7815f36ae6fb53f3e27dfff96e6fbbf0b98a94a2915a4e355e0d60eddcbc",
+      "bytes": 259277
+    },
+    {
+      "file": "embedding_manifest.csv",
+      "sha256": "8a739af6dc19224dc28f1524f390a1c86eefe0b19877d3c8b84cfaf84a1d465e",
+      "bytes": 204396
+    },
+    {
+      "file": "video_quality_df.csv",
+      "sha256": "080378c4dd8a631805a47bae17e172d635ffcbf17c3ebde6e2bb01d4dc65cdb3",
+      "bytes": 419906
+    },
+    {
+      "file": "manifest_with_groups.csv",
+      "sha256": "1621c63ec35d5249f77071fd99ca6260937e8178ddc5ffe7e2999de73efb24c8",
+      "bytes": 678002
+    }
+  ],
+  "duplicates_not_copied": {
+    "feasibility.csv": "split_feasibility.csv",
+    "group_report.csv": "date_group_report.csv",
+    "split_base_df.csv": "manifest_with_groups.csv",
+    "manifest_df.csv": "master_manifest.csv"
+  },
+  "note": "Same bytes confirmed with SHA-256, not data deduplication on rows."
+}

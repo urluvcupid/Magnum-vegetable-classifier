@@ -1,0 +1,2 @@
+selection_completed_before_test,chosen_on,model,checkpoint_best_epoch,n_test,correct,errors,accuracy,macro_f1,note
+True,shared Validation (n=552) by macro-F1,resnet18_quality_best.pth,5,683,667,16,0.9765739385065886,0.9159206350451213,Shooting-group separation was used in split V3; independence by capture date is not guaranteed. Some test images may be correlated within groups.

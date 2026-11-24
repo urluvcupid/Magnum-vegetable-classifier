@@ -1,0 +1,11 @@
+{
+  "checkpoint": "model/resnet18_stage_b_full_quality_epoch5.pth",
+  "device": "cpu",
+  "test_type": "synthetic input CLI smoke test",
+  "passed": true,
+  "predicted_class": "Capsicum",
+  "score_count": 6,
+  "caveat": "Synthetic image is not an accuracy test; CPU test on a real photo is recorded in stage_b_summary.json",
+  "gradcam_cpu_synthetic_smoke_test": true,
+  "stage_b_old_test_evaluation_guard": true
+}

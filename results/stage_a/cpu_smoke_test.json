@@ -1,0 +1,9 @@
+{
+  "cpu_inference_ok": true,
+  "image": "20251117_134205_frame_62.jpg",
+  "predicted_class": "Cucumber",
+  "output_shape": [
+    1,
+    6
+  ]
+}

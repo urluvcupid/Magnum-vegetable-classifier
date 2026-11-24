@@ -1,0 +1,33 @@
+{
+  "experiment": "cnn_diversity",
+  "architecture": "resnet18",
+  "pretrained_weights": "IMAGENET1K_V1",
+  "selection_metric": "validation_macro_f1",
+  "train_size": 1798,
+  "validation_size": 552,
+  "best_epoch": 5,
+  "best_validation_macro_f1": 0.9181743494341305,
+  "best_validation_accuracy": 0.9384057971014492,
+  "minutes": 4.592555296421051,
+  "config": {
+    "seed": 42,
+    "batch_size": 32,
+    "num_workers": 2,
+    "head_epochs": 2,
+    "fine_epochs": 5,
+    "lr_head": 0.001,
+    "lr_layer4": 0.0001,
+    "lr_fc_fine": 0.0003,
+    "weight_decay": 0.0001,
+    "image_size": 224
+  },
+  "class_names": [
+    "Capsicum",
+    "Carrot",
+    "Cucumber",
+    "Potato",
+    "Raddish",
+    "Squash"
+  ],
+  "note": "Stage A V3: split_group disjoint; date independence not guaranteed"
+}

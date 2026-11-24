@@ -1,0 +1,20 @@
+{
+  "selection_completed_before_test": true,
+  "chosen_on": "shared Validation (n=552) by macro-F1",
+  "model": "resnet18_quality_best.pth",
+  "checkpoint_best_epoch": 5,
+  "n_test": 683,
+  "correct": 667,
+  "errors": 16,
+  "accuracy": 0.9765739385065886,
+  "macro_f1": 0.9159206350451213,
+  "class_names": [
+    "Capsicum",
+    "Carrot",
+    "Cucumber",
+    "Potato",
+    "Raddish",
+    "Squash"
+  ],
+  "note": "Shooting-group separation was used in split V3; independence by capture date is not guaranteed. Some test images may be correlated within groups."
+}

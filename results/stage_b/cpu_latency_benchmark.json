@@ -1,0 +1,15 @@
+{
+  "device": "cpu",
+  "image": "/mnt/data/Magnum_ResNet18_submission_TZ/examples/bench_photo.jpg",
+  "runs": 20,
+  "warmup": 3,
+  "threads": 4,
+  "model_load_seconds": 0.241,
+  "latency_median_ms": 34.09,
+  "latency_mean_ms": 47.05,
+  "latency_p90_ms": 71.65,
+  "python": "3.13.5",
+  "torch": "2.10.0+cpu",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "cpu": "not reported"
+}
